@@ -9,7 +9,6 @@ const { post, get } = require("axios"),
     helmet = require("helmet"),
     app = express(),
     expressip = require("express-ip"),
-    Ratted = require("./models/Ratted"),
     port = process.env.PORT || 80
     
 //plugins
